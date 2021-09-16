@@ -3,16 +3,28 @@
     #E5E5E5;
     color:#757575 ;
 }
+
+/* шапка */
 .page-header{
     background-color: #FFFFFF;
 }
-
 .logo { color: #2196F3
-    
   }
-  .logo-header { color:#212121;
+.logo-header { color:#212121;
   }
-  
+  .mailo {color:#2196F3}
+  .phone {color:#757575}
+/* герой */
+.hero {background-color: #2F303A;
+}
+.hero-tittle{color:#FFFFFF}
+.button{background-color:#2196F3;
+color:#FFFFFF}
+/* Преимущества заннятие и команда */
+.section-tittle{color: #212121;}
+.team { background-color: #F5F4FA}
+
+
 /* цвет основного текста #757575  */
 /* вторичный цвет текста #212121 */
 /* фон #E5E5E5 */
