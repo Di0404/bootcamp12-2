@@ -4,7 +4,7 @@
     color:#757575 ;
 }
 
-/* шапка */
+/* шапка сайта */
 .page-header{
     background-color: #FFFFFF;
 }
@@ -12,8 +12,14 @@
   }
 .logo-header { color:#212121;
   }
-  .mailo {color:#2196F3}
-  .phone {color:#757575}
+.portfolio-link:hover,
+.portfolio-link:focus {color: #2196F3};
+.portfolio-link {color:#2196F3};
+.mailo:hover,
+.mailo:focus {color: #2196F3};
+.mailo {color:#2196F3};
+
+.phone {color:#757575}
 /* герой */
 .hero {background-color: #2F303A;
 }
@@ -24,6 +30,12 @@ color:#FFFFFF}
 .section-tittle{color: #212121;}
 .team { background-color: #F5F4FA}
 
+/* ФУТЕР */
+.footer{background-color:#2F303A}
+.logo-footer{color: #FFFFFF;}
+.adress{color: #FFFFFF;}
+.footer-mailo{color: rgba(255, 255, 255, 0.6);}
+.footer-phone{color: rgba(255, 255, 255, 0.6);}
 
 /* цвет основного текста #757575  */
 /* вторичный цвет текста #212121 */
