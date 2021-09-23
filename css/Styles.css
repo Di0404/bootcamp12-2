@@ -1,46 +1,57 @@
-.page{
-    background-color: 
-    #E5E5E5;
-    color:#757575 ;
+:root {
+  --primary-text-color: #757575; /* цвет основного текста #757575  */
+  --title-text-color: #212121; /* вторичный цвет текста #212121 */
+  --primary-white-color: #E5E5E5; /* фон #E5E5E5 */
+  --accent-color: #2F303A; /* темный фон #2F303A */
+  --text-line: #2196F3; /* синий #2196F3 */
+  --white-color: #ffffff;/* белый #FFFFFF */
+  --background-color-: #F5F4FA;  /* фон второй */
 }
+/* боди */
+.page{background-color: var(--white-color);
+color: var(--primary-text-color); 
+font-family: Roboto, sans-serif; }
+
 
 /* шапка сайта */
-.page-header{
-    background-color: #FFFFFF;
-}
-.logo { color: #2196F3
-  }
-.logo-header { color:#212121;
-  }
-.portfolio-link:hover,
-.portfolio-link:focus {color: #2196F3};
-.portfolio-link {color:#2196F3};
-.mailo:hover,
-.mailo:focus {color: #2196F3};
-.mailo {color:#2196F3};
+.page-header {background-color:var(--white-color);}
+.logo { color:var(--text-line);}
+.logo-header { color:var(--primary-text-color);}
 
-.phone {color:#757575}
+
+.site-nav .link:hover, .link:hover,
+.site-nav .link:focus, .link:focus,
+{color:var(--text-line);}
+.link {color:var(--text-line) ;}
+
+
+.info .mailo:hover, .phone:hover,
+.info .mailo:focus, .phone:focus {color:var(--text-line) ;}
+.phone {color:var(--primary-text-color);}
+
 /* герой */
-.hero {background-color: #2F303A;
-}
-.hero-tittle{color:#FFFFFF}
-.button{background-color:#2196F3;
-color:#FFFFFF}
+.hero {background-color: var(--accent-color) ;}
+.hero-tittle{color:var(--white-color) ;}
+.button{background-color:var(--text-line) ;color:var(--white-color) ;}
 
 /* Преимущества заннятие и команда */
-.section-tittle{color: #212121;}
-.team { background-color: #F5F4FA}
+.section-tittle{color: var(--title-text-color);}
+.team { background-color:var(--background-color);}
 
 /* ФУТЕР */
-.footer{background-color:#2F303A}
-.logo-footer{color: #FFFFFF;}
-.adress{color: #FFFFFF;}
+.footer{background-color:var(--accent-color) ;}
+.logo {color:var(--text-line) ;}
+.logo-footer{color: var(--white-color) ;}
+.adress{color:var(--white-color) ;}
 .footer-mailo{color: rgba(255, 255, 255, 0.6);}
 .footer-phone{color: rgba(255, 255, 255, 0.6);}
 
-/* цвет основного текста #757575  */
-/* вторичный цвет текста #212121 */
-/* фон #E5E5E5 */
-/* белый #FFFFFF */
-/* синий #2196F3 */
-/* темный фон #2F303A */
+
+
+/* портфолио */
+.project-nav-button{background-color: var(--text-line);
+color:var(--white-color) ;}
+.project-button{background-color:var(--background-color);
+color:var(--title-text-color);}
+
+.project-tittle{color:var(--title-text-color);}
