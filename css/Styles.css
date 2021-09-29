@@ -8,10 +8,12 @@
   --background-color-: #F5F4FA;  /* фон второй */
 }
 /* боди */
-.page {background-color: var(--primary-white-color);
+.page {
+  background-color: var(--primary-white-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
-  letter-spacing: 3%;
+  font-style: normal;
+  letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;}
 
@@ -20,39 +22,36 @@
 .page-header {background-color:var(--white-color);}
 
 .site-nav { 
-  Font style: Medium;
-  Font size: 14px;
-  Line height: 1,14px;
-  Line height: 100%;
-  Letter spacing: 2%;}
+  font-weight: 500;
+  line-height: 1,14;
+  letter-spacing: 0.02em;
+}
 
 .logo { 
   font-family: Raleway, sans-serif;
   color: var(--text-line);
   text-decoration: none;
-  font-style: normal;
   font-weight: bold;
   Font size: 26px;
-  Line height: 1,19px;}
+  Line height: 1,19;}
 
 .logo-header { 
   font-family: Raleway, sans-serif;
+  color: var(--title-text-color);
   text-decoration: none;
-  font-style: normal;
   font-weight: bold;
   Font size: 26px;
-  Line height: 1,19px;}
+  Line height: 1,19;}
 
 .link {color:var(--title-text-color);}
 .studio:hover, .studio:focus, 
 {color:var(--text-line);}
 
-.mailo { 
-  Font style: Medium;
-  Font size: 14px;
-  Line height: 1,14px;
-  Line height: 100%;
-  Letter spacing: 2%;}
+.info { 
+  font-weight: 500;
+  line-height: 1,14;
+  letter-spacing: 0.02em;
+}
 
 .mailo:hover, .mailo:focus, {color:var(--text-line) ;}
 
@@ -61,34 +60,62 @@
 /* герой */
 .hero{background-color:var(--accent-color) ;}
 
-.hero-tittle{color:var(--white-color) ;
+.hero-tittle{
+  color:var(--white-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 1,36;
+  letter-spacing: 0.06em;
   text-align: center;
-  letter-spacing: 6%;}
+}
 
-.button{background-color:var(--text-line) ;color:var(--white-color) ;
+.button{
+  background-color:var(--text-line) ;
+  color:var(--white-color) ;
+  font-weight: bold;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1,8;
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 6%;}
+  letter-spacing: 0.06em;
+}
 
 /* Преимущества заннятие и команда */
-.section-tittle{color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.17;}
-.section-text{
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;}
-
-
-.section-team { background-color:var(--background-color);
+.section-tittle{
+  color: var(--title-text-color);
+  font-weight: bold;
+  line-height: 1,14;
 }
+
+.section-text{
+  font-style: normal;
+  font-weight: normal;
+}
+
+.section-features{
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1,16;
+  text-align: center;
+}
+
+.section-team {background-color:var(--background-color);
+}
+
+.name{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1,18;
+  text-align: center;
+  }
+
+.name-description{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1,18;
+  text-align: center;
+  }
 
 /* ФУТЕР */
 .footer{background-color:var(--accent-color) ;}
