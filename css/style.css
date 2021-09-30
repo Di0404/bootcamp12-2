@@ -181,7 +181,6 @@ ul {
 }
 
 /* портфолио */
-
 .button:hover,
 .button:focus {
   background: var(--text-line);
