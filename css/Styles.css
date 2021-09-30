@@ -23,7 +23,7 @@
 
 .site-nav { 
   font-weight: 500;
-  line-height: 1,14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -32,8 +32,8 @@
   color: var(--text-line);
   text-decoration: none;
   font-weight: bold;
-  Font size: 26px;
-  Line height: 1,19;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .logo-header { 
@@ -42,7 +42,7 @@
   text-decoration: none;
   font-weight: bold;
   Font size: 26px;
-  Line height: 1,19;}
+  Line height: 1.19;}
 
 .site-nav .link:hover, .mailo:hover, .phone:hover,
 .site-nav .link:focus, .mailo:focus, .phone:focus {
@@ -50,8 +50,10 @@
 
 .info { 
   font-weight: 500;
-  line-height: 1,14;
-  letter-spacing: 0.02em;}
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
 
 .mailo:hover, .mailo:focus, {color:var(--text-line);}
 .phone:hover, .phone:focus
@@ -63,7 +65,7 @@
   color:var(--white-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 1,36;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;}
 
@@ -72,7 +74,7 @@
   color:var(--white-color) ;
   font-weight: bold;
   font-size: 16px;
-  line-height: 1,8;
+  line-height: 1.8;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;}
@@ -81,7 +83,7 @@
 .section-tittle{
   color: var(--title-text-color);
   font-weight: bold;
-  line-height: 1,14;}
+  line-height: 1.14;}
 
 .section-text{
   font-style: normal;
@@ -90,7 +92,7 @@
 .section-features{
   font-weight: bold;
   font-size: 36px;
-  line-height: 1,16;
+  line-height: 1.16;
   text-align: center;}
 
 .section-team {background-color:var(--background-color);}
@@ -98,13 +100,13 @@
 .name{
   font-weight: 500;
   font-size: 16px;
-  line-height: 1,18;
+  line-height: 1.18;
   text-align: center;}
 
 .name-description{
   font-weight: normal;
   font-size: 16px;
-  line-height: 1,18;
+  line-height: 1.18;
   text-align: center;}
 
 /* ФУТЕР */
@@ -163,5 +165,5 @@ font-weight: normal;}
 .project-info{
   font-weight: normal;
   font-size: 16px;
-  line-height: 1,8;
+  line-height: 1.8;
   letter-spacing: 0.03em;}
