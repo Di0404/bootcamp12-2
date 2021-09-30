@@ -10,6 +10,10 @@
 ul {
   list-style: none;
 }
+
+a {
+  text-decoration: none;
+}
 /* боди */
 .page {
   background-color: var(--white-color);
@@ -29,7 +33,6 @@ ul {
 .logo {
   font-family: Raleway, sans-serif;
   color: var(--text-line);
-  text-decoration: none;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -38,7 +41,6 @@ ul {
 .logo-header {
   font-family: Raleway, sans-serif;
   color: var(--title-text-color);
-  text-decoration: none;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -59,7 +61,6 @@ ul {
   line-height: 1.14;
   font-size: 14px;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 
 .mailo,
@@ -68,7 +69,6 @@ ul {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 
 .mailo:hover,
@@ -111,6 +111,7 @@ ul {
   color: var(--title-text-color);
   font-weight: bold;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .section-text {
@@ -162,7 +163,6 @@ ul {
 .footer-mailo,
 .footer-phone {
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
   list-style: none;
   font-style: normal;
 }
@@ -195,6 +195,7 @@ ul {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  font-weight: bold;
 }
 
 .project-tittle {
