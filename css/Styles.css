@@ -1,11 +1,10 @@
 :root {
   --primary-text-color: #757575; /* цвет основного текста #757575  */
   --title-text-color: #212121; /* вторичный цвет текста #212121 */
-  --primary-white-color: #e5e5e5; /* фон #E5E5E5 */
   --accent-color: #2f303a; /* темный фон #2F303A */
   --text-line: #2196f3; /* синий #2196F3 */
   --white-color: #ffffff; /* белый #FFFFFF */
-  --background-color-: #f5f4fa; /* фон второй */
+  --background-color: #f5f4fa; /* фон второй */
 }
 
 ul {
@@ -13,7 +12,7 @@ ul {
 }
 /* боди */
 .page {
-  background-color: var(--primary-white-color);
+  background-color: var(----white-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   font-style: normal;
