@@ -1,214 +1,118 @@
-:root {
-  --primary-text-color: #757575; /* цвет основного текста #757575  */
-  --title-text-color: #212121; /* вторичный цвет текста #212121 */
-  --accent-color: #2f303a; /* темный фон #2F303A */
-  --text-line: #2196f3; /* синий #2196F3 */
-  --white-color: #ffffff; /* белый #FFFFFF */
-  --background-color: #f5f4fa; /* фон второй */
+html {
+  box-sizing: border-box;
 }
 
-ul {
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+ul,
+li {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
-
-a {
-  text-decoration: none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
 }
-/* боди */
-.page {
-  background-color: var(--white-color);
-  color: var(--primary-text-color);
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  letter-spacing: 0.03em;
-  font-size: 14px;
-  line-height: 1.71;
+.container {
+  width: 1200px;
+  height: 700px;
+  border: 5px solid green;
+  margin-right: auto;
+  margin-left: auto;
 }
-
-/* шапка сайта */
-.page-header {
-  background-color: var(--white-color);
-}
-
-.logo {
-  font-family: Raleway, sans-serif;
-  color: var(--text-line);
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-}
-
-.logo-header {
-  font-family: Raleway, sans-serif;
-  color: var(--title-text-color);
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-}
-
-.site-nav .link:hover,
-.mailo:hover,
-.phone:hover,
-.site-nav .link:focus,
-.mailo:focus,
-.phone:focus {
-  color: var(--text-line);
-}
-
-.link {
-  color: var(--title-text-color);
-  font-weight: 500;
-  line-height: 1.14;
-  font-size: 14px;
-  letter-spacing: 0.02em;
-}
-
-.mailo,
-.phone {
-  color: var(--primary-text-color);
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-
-.mailo:hover,
-.mailo:focus,
-.phone:hover,
-.phone:focus {
-  color: var(--text-line);
-}
-
-/* герой */
-.hero {
-  background-color: var(--accent-color);
-}
-
-.hero-tittle {
-  color: var(--white-color);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.button-hero {
-  background-color: var(--text-line);
-  color: var(--white-color);
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.8;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
+.list {
+  box-sizing: border-box;
   display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  padding: 40px;
 }
 
-/* Преимущества заннятие и команда */
-.section-tittle {
-  color: var(--title-text-color);
-  font-weight: bold;
-  line-height: 1.14;
-  text-transform: uppercase;
-}
+.cont:nth-child(1) {
+  height: 200px;
+  width: 200px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  border: 5px solid black;
+  box-shadow: 20px 20px 1px 20px gold;
 
-.section-text {
-  font-style: normal;
-  font-weight: normal;
+  background-color: purple;
+  background-image: url(../images/img1.jpg);
+  background-size: 100px 100px;
+  background-repeat: repeat-x;
 }
+.cont:nth-child(2) {
+  height: 200px;
+  width: 200px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  border: 5px solid black;
+  box-shadow: 20px -20px 1px 20px gold;
 
-.section-features {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  color: var(--title-text-color);
+  background-color: purple;
+  background-image: url(../images/img2.jpg);
+  background-size: 100px 100px;
+  background-repeat: repeat-y;
 }
+.cont:nth-child(3) {
+  height: 200px;
+  width: 200px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  border: 5px solid black;
+  box-shadow: 20px -20px 20px 20px gold;
 
-.section-team {
-  background-color: var(--background-color);
+  background-color: purple;
+  background-image: url(../images/img3.jpg);
+  background-size: 100px 100px;
+  background-repeat: repeat;
 }
+.cont:nth-child(4) {
+  height: 200px;
+  width: 200px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  border: 5px solid tomato;
+  box-shadow: -20px 20px 1px 20px gold;
 
-.name {
-  color: var(--title-text-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  text-align: center;
+  background-color: blue;
+  background-image: url(../images/img4.jpg);
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
 }
+.cont:nth-child(5) {
+  height: 200px;
+  width: 200px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  border: 5px solid tomato;
+  box-shadow: -20px 20px 20px 20px gold;
 
-.name-description {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.18;
-  text-align: center;
+  background-color: blue;
+  background-image: url(../images/img5.jpg);
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
 }
+.cont:nth-child(6) {
+  height: 200px;
+  width: 200px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  border: 5px solid tomato;
+  box-shadow: 20px 20px 20px 40px gold;
 
-/* ФУТЕР */
-.footer {
-  background-color: var(--accent-color);
-}
-.logo-footer {
-  color: var(--white-color);
-}
-
-.adress {
-  color: var(--white-color);
-  font-style: normal;
-  list-style: none;
-}
-
-.footer-mailo,
-.footer-phone {
-  color: rgba(255, 255, 255, 0.6);
-  list-style: none;
-  font-style: normal;
-}
-
-.footer-mailo:hover,
-.footer-phone:hover,
-.footer-mailo:focus,
-.footer-phone:focus {
-  color: var(--text-line);
-}
-
-.adress,
-.footer-mailo,
-.footer-phone {
-  font-weight: normal;
-}
-
-/* портфолио */
-.button:hover,
-.button:focus {
-  background: var(--text-line);
-  color: var(--white-color);
-}
-
-.button {
-  background: var(--background-color);
-  color: var(--title-text-color);
-  cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  font-weight: bold;
-}
-
-.project-tittle {
-  color: var(--title-text-color);
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
-
-.project-info {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.8;
-  letter-spacing: 0.03em;
+  background-color: blue;
+  background-image: url(../images/img6.jpg);
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
 }
